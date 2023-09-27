@@ -2,43 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://yikoutian1.github.io/posts/6c92115f.html</loc>
-    
-    <lastmod>2023-09-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yikoutian1.github.io/posts/f602192b.html</loc>
-    
-    <lastmod>2023-09-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yikoutian1.github.io/manifest.json</loc>
-    
-    <lastmod>2023-09-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yikoutian1.github.io/about/index.html</loc>
-    
-    <lastmod>2023-09-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yikoutian1.github.io/categories/index.html</loc>
     
     <lastmod>2023-09-27</lastmod>
     
@@ -57,6 +21,42 @@
   
   <url>
     <loc>https://yikoutian1.github.io/tags/index.html</loc>
+    
+    <lastmod>2023-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yikoutian1.github.io/posts/f602192b.html</loc>
+    
+    <lastmod>2023-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yikoutian1.github.io/posts/6c92115f.html</loc>
+    
+    <lastmod>2023-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yikoutian1.github.io/about/index.html</loc>
+    
+    <lastmod>2023-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yikoutian1.github.io/categories/index.html</loc>
     
     <lastmod>2023-09-27</lastmod>
     
@@ -97,14 +97,14 @@
 
   
   <url>
-    <loc>https://yikoutian1.github.io/categories/Spring/</loc>
+    <loc>https://yikoutian1.github.io/categories/MyBatisPlus/</loc>
     <lastmod>2023-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yikoutian1.github.io/categories/Spring-MVC/</loc>
+    <loc>https://yikoutian1.github.io/categories/Spring/</loc>
     <lastmod>2023-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -4,16 +4,16 @@
   
     
     <entry>
-      <title>Spring</title>
-      <link href="/posts/6c92115f.html"/>
-      <url>/posts/6c92115f.html</url>
+      <title>MyBatisPlus</title>
+      <link href="/posts/f602192b.html"/>
+      <url>/posts/f602192b.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Spring<br><div class="tip home"><p>这是一个外挂标签</p></div></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
       
       
       <categories>
           
-          <category> Spring </category>
+          <category> MyBatisPlus </category>
           
       </categories>
       
@@ -33,16 +33,16 @@
     
     
     <entry>
-      <title>Spring MVC</title>
-      <link href="/posts/f602192b.html"/>
-      <url>/posts/f602192b.html</url>
+      <title>Spring</title>
+      <link href="/posts/6c92115f.html"/>
+      <url>/posts/6c92115f.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><hr><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">System.out.println(&quot;Hello world&quot;)</span><br></pre></td></tr></table></figure><div class="tip "><p>这是一个外挂标签</p></div><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">测试</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Spring<br><div class="tip home"><p>这是一个外挂标签</p></div></p>]]></content>
       
       
       <categories>
           
-          <category> Spring MVC </category>
+          <category> Spring </category>
           
       </categories>
       
