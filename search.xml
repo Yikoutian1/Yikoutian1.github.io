@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>MyBatisPlus</title>
+      <title>MyBatis Plus</title>
       <link href="/posts/f602192b.html"/>
       <url>/posts/f602192b.html</url>
       
@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> MyBatisPlus </category>
+          <category> MyBatis Plus </category>
           
       </categories>
       
@@ -37,7 +37,7 @@
       <link href="/posts/6c92115f.html"/>
       <url>/posts/6c92115f.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Spring<br><div class="tip home"><p>这是一个外挂标签</p></div></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><div class="tip home"><p>Spring总结来说就是一个轻量级的控制反转（IOC）和面向切面编程（AOP）的框架</p></div>]]></content>
       
       
       <categories>
