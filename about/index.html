@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://yikoutian1.github.io/img/head.jpg">
 <meta property="article:published_time" content="2023-09-22T15:57:51.000Z">
-<meta property="article:modified_time" content="2023-10-02T14:39:21.585Z">
+<meta property="article:modified_time" content="2023-10-03T14:36:03.962Z">
 <meta property="article:author" content="Calyee">
 <meta property="article:tag" content="记录一个有趣的点滴,仇仇仇,博客,calyee,生活明朗, 万物可爱">
 <meta name="twitter:card" content="summary">
@@ -58,7 +58,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-10-02 14:39:21'
+  postUpdate: '2023-10-03 14:36:03'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -256,17 +256,44 @@
           border-radius: 12%;
           border: #e6dee9 1px solid;
         }
+        .box-2 h2 {
+          font-size: 36px;
+          margin-left: 2%;
+          line-height: 1;
+        }
         .text-3 {
           margin-left: 5%;
-          margin-top: 10px;
-          font-size: 24px;
+          font-size: 18px;
           font-weight: 800;
         }
-        .text-4 {
+        .text-5 {
           margin-left: 5%;
-          margin-top: 10px;
-          font-size: 30px;
-          font-weight: 800;
+          font-size: 36px;
+          font-weight: 700;
+          margin-top: 3%;
+          animation: textIn 1s both;
+        }
+        @keyframes textIn {
+          0% {
+            opacity: 0;
+            letter-spacing: -30px;
+          }
+          60% {
+            letter-spacing: 5px;
+          }
+          100% {
+            opacity: 1;
+            letter-spacing: 0;
+          }
+        }
+        .myinfo {
+          margin-top: 2%;
+          border: #e6dee9 1px solid;
+          border-radius: 10%;
+        }
+        .myinfo span,
+        h2 {
+          margin-left: 10px;
         }
       }
       /* 手机 */
@@ -284,11 +311,7 @@
             #e6dee9 100%
           );
         }
-        .box-2 {
-          height: 150px;
-          margin-left: 3%;
-          border-radius: 12%;
-        }
+
         .nice-to-meet {
           margin-top: 40px;
           margin-left: 9%;
@@ -312,6 +335,53 @@
           margin-left: 9%;
           text-align: left;
         }
+        /* 右边盒子 */
+        .box-2 {
+          margin-top: 3%;
+          width: 100%;
+          height: 180px;
+          border-radius: 12%;
+          border: #e6dee9 1px solid;
+        }
+        .box-2 h2 {
+          font-size: 36px;
+          margin-left: 5%;
+          line-height: 1;
+        }
+        .text-3 {
+          margin-left: 5%;
+          font-size: 18px;
+          font-weight: 800;
+        }
+        .text-5 {
+          margin-left: 5%;
+          font-size: 36px;
+          font-weight: 700;
+          margin-top: 3%;
+          animation: textIn 1s both;
+        }
+        @keyframes textIn {
+          0% {
+            opacity: 0;
+            letter-spacing: -30px;
+          }
+          60% {
+            letter-spacing: 5px;
+          }
+          100% {
+            opacity: 1;
+            letter-spacing: 0;
+          }
+        }
+        .myinfo {
+          margin-top: 2%;
+          border: #e6dee9 1px solid;
+          border-radius: 10%;
+        }
+        .myinfo span,
+        h2 {
+          margin-left: 10px;
+        }
       }
     </style>
   </head>
@@ -329,15 +399,19 @@
         </section>
         <section class="box-2">
           <div class="text-3">追求</div>
-          <div class="text-4">源于热爱</div>
+          <h2>
+            源于<br>
+            热爱 而去感受
+            <div class="text-5" id="recircle"></div>
+          </h2>
         </section>
       </div>
-      <section>
+      <section class="myinfo">
         <h2>联系方式</h2>
         <div style="font-size: 16px">
           <span>邮箱: qiulihang1@foxmail.com</span><br>
           <span>GitHub:
-            <a target="_blank" rel="noopener" href="https://github.com/Yikoutian1">github</a>
+            <a target="_blank" rel="noopener" href="https://github.com/Yikoutian1">Click here to jump to my github</a>
           </span>
           <br>
           <span>QQ: 599882460</span>
@@ -352,6 +426,25 @@
     </footer>
   </div>
   <script>
+    var life = ["生活", "学习", "体验"];
+    var lifecolor = ["#73FBFD","#FDB0A6","#A1FA4F"];
+    var count = 0;
+    function changeMy() {
+      // 切换文案
+      document.getElementById(
+        "recircle"
+      ).innerHTML = `<div class="text-5" id="recircle"">${life[count]}</div>`;
+      // 切换颜色
+      document.getElementById("recircle").style.color = lifecolor[count]
+      count = count + 1;
+      if (count > life.length - 1) count = 0;
+    }
+    // 标签初始化
+    changeMy();
+    setInterval(() => {
+      changeMy();
+    }, 1000 * 2); // 1秒
+
     function changeTime() {
       // 实现时间年份动态变化
       let date = new Date();
