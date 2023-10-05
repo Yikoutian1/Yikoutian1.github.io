@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>Redis</title>
+      <link href="/2023/10/05/Redis/"/>
+      <url>/2023/10/05/Redis/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Redis </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> 后端 </tag>
+            
+            <tag> 学习 </tag>
+            
+            <tag> Redis </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo+Github博客：网站内图片不能正常显示，但本地文件可以显示</title>
       <link href="/2023/10/02/Hexo%E5%9B%BE%E7%89%87%E8%B7%AF%E5%BE%84%E8%BD%AC%E6%8D%A2/"/>
       <url>/2023/10/02/Hexo%E5%9B%BE%E7%89%87%E8%B7%AF%E5%BE%84%E8%BD%AC%E6%8D%A2/</url>
