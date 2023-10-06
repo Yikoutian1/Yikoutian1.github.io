@@ -4,7 +4,7 @@
   <url>
     <loc>https://yikoutian1.github.io/manifest.json</loc>
     
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,7 @@
   <url>
     <loc>https://yikoutian1.github.io/link/index.html</loc>
     
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +22,7 @@
   <url>
     <loc>https://yikoutian1.github.io/tags/index.html</loc>
     
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +31,7 @@
   <url>
     <loc>https://yikoutian1.github.io/about/index.html</loc>
     
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,25 +40,25 @@
   <url>
     <loc>https://yikoutian1.github.io/categories/index.html</loc>
     
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yikoutian1.github.io/2023/10/02/Hexo%E5%9B%BE%E7%89%87%E8%B7%AF%E5%BE%84%E8%BD%AC%E6%8D%A2/</loc>
+    <loc>https://yikoutian1.github.io/2023/09/23/Hexo%E5%9B%BE%E7%89%87%E8%B7%AF%E5%BE%84%E8%BD%AC%E6%8D%A2/</loc>
     
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yikoutian1.github.io/2023/10/02/Hexo%E5%BC%95%E5%85%A5%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/</loc>
+    <loc>https://yikoutian1.github.io/2023/09/23/Hexo%E5%BC%95%E5%85%A5%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/</loc>
     
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +67,7 @@
   <url>
     <loc>https://yikoutian1.github.io/2023/09/25/MyBatisPlus/</loc>
     
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +76,16 @@
   <url>
     <loc>https://yikoutian1.github.io/2023/10/05/Redis/</loc>
     
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yikoutian1.github.io/2023/10/06/Spring%20MVC/</loc>
+    
+    <lastmod>2023-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +94,7 @@
   <url>
     <loc>https://yikoutian1.github.io/2023/09/24/Spring/</loc>
     
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,7 +103,7 @@
 
   <url>
     <loc>https://yikoutian1.github.io/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,49 +111,56 @@
   
   <url>
     <loc>https://yikoutian1.github.io/tags/hexo/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yikoutian1.github.io/tags/Java/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yikoutian1.github.io/tags/%E5%90%8E%E7%AB%AF/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yikoutian1.github.io/tags/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yikoutian1.github.io/tags/MyBatis-Plus/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yikoutian1.github.io/tags/Redis/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yikoutian1.github.io/tags/Spring-MVC/</loc>
+    <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yikoutian1.github.io/tags/Spring/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -153,28 +169,28 @@
   
   <url>
     <loc>https://yikoutian1.github.io/categories/hexo/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yikoutian1.github.io/categories/MyBatis-Plus/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yikoutian1.github.io/categories/Redis/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yikoutian1.github.io/categories/Spring/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
