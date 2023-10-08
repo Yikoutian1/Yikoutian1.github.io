@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>SpringBoot</title>
+      <link href="/2023/10/08/SpringBoot/"/>
+      <url>/2023/10/08/SpringBoot/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><div class="tip home"><p>暂无笔记</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> SpringBoot </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> 后端 </tag>
+            
+            <tag> 学习 </tag>
+            
+            <tag> SpringBoot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>SpringMVC</title>
       <link href="/2023/10/06/SpringMVC/"/>
       <url>/2023/10/06/SpringMVC/</url>
@@ -66,16 +97,16 @@
     
     
     <entry>
-      <title>MyBatis Plus</title>
+      <title>MyBatisPlus</title>
       <link href="/2023/09/25/MyBatisPlus/"/>
       <url>/2023/09/25/MyBatisPlus/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><div class="tip home"><p>暂无笔记</p></div>]]></content>
       
       
       <categories>
           
-          <category> MyBatis Plus </category>
+          <category> MyBatisPlus </category>
           
       </categories>
       
@@ -88,7 +119,7 @@
             
             <tag> 学习 </tag>
             
-            <tag> MyBatis Plus </tag>
+            <tag> MyBatisPlus </tag>
             
         </tags>
       
