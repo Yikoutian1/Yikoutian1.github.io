@@ -164,6 +164,8 @@
   [data-theme="dark"] div#category {
     background: transparent !important;
   }
+  /*一图流设置 开始*/
+
   /* 页脚透明 */
   #footer {
     background: transparent !important;
@@ -173,7 +175,10 @@
   #page-header {
     background: transparent !important;
   }
-  
+  /*一图流设置 结束*/
+
+
+
   #rightside > div > button {
     border-radius: 5px;
   }
