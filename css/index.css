@@ -6557,6 +6557,7 @@ blockquote.pullquote.right {
     min-height: 300px;
     overflow: hidden;
     color: var(--anzhiyu-white);
+    margin: auto;
     width: 59%;
   }
   
