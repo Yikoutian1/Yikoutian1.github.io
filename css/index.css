@@ -2353,6 +2353,22 @@ maxWidth1200()
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
+.flexcard-flink-list > a:hover::before {
+  position: fixed;
+  width: 90%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0%;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 100;
+  content: attr(data-title);
+  font-size: 16px;
+  color: #fff;
+  padding: 10px;
+  background-color: rgba(239,136,190,0.8);
+}
 .flexcard-flink-list > a .cover {
   width: 100%;
   -webkit-transition: -webkit-transform 0.5s ease-out;
@@ -2402,6 +2418,7 @@ maxWidth1200()
   align-items: center;
   width: 100%;
   height: 100%;
+  pointer-events: none;
   overflow: hidden;
   border-radius: 3px;
   background-color: rgba(255,255,255,0.7);
@@ -6288,7 +6305,7 @@ blockquote.pullquote.right {
   .author-content-item.selfInfo div {
     display: flex;
     flex-direction: column;
-    margin: 0.5rem 2rem 0.5rem 0;
+    margin: 0.5rem 0rem 0.5rem 0;
   }
   .author-content-item.selfInfo .selfInfo-title {
     opacity: 0.8;

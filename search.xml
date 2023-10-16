@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Docker</title>
+      <link href="/2023/10/16/Docker/"/>
+      <url>/2023/10/16/Docker/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Docker </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Docker </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>SpringBoot</title>
       <link href="/2023/10/08/SpringBoot/"/>
       <url>/2023/10/08/SpringBoot/</url>
@@ -23,8 +48,6 @@
             <tag> Java </tag>
             
             <tag> 后端 </tag>
-            
-            <tag> 学习 </tag>
             
             <tag> SpringBoot </tag>
             
@@ -55,8 +78,6 @@
             
             <tag> 后端 </tag>
             
-            <tag> 学习 </tag>
-            
             <tag> SpringMVC </tag>
             
         </tags>
@@ -86,8 +107,6 @@
             
             <tag> 后端 </tag>
             
-            <tag> 学习 </tag>
-            
             <tag> Redis </tag>
             
         </tags>
@@ -116,8 +135,6 @@
             <tag> Java </tag>
             
             <tag> 后端 </tag>
-            
-            <tag> 学习 </tag>
             
             <tag> MyBatisPlus </tag>
             
