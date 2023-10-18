@@ -14,7 +14,7 @@ var popupWindowTimer = null;
 var adjectives = [
   "美丽的",
   "英俊的",
-  "聪明的",
+  "聪明的", 
   "勇敢的",
   "可爱的",
   "慷慨的",
@@ -99,6 +99,7 @@ var adjectives = [
   "有创新能力的",
   "有专业素养的",
   "有商业头脑的",
+  
 ];
 var vegetablesAndFruits = [
   "萝卜",
