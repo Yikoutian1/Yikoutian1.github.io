@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Nginx</title>
+      <link href="/2023/10/20/Nginx/"/>
+      <url>/2023/10/20/Nginx/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> Nginx </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nginx </tag>
+            
+            <tag> 负载均衡 </tag>
+            
+            <tag> 反向代理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Docker</title>
       <link href="/2023/10/16/Docker/"/>
       <url>/2023/10/16/Docker/</url>
