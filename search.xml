@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Vue</title>
+      <link href="/2023/10/25/Vue/"/>
+      <url>/2023/10/25/Vue/</url>
+      
+        <content type="html"><![CDATA[<div class="tip cogs"><p>记录一点点儿前端的知识</p></div><h2 id="Vue对于axios的并行请求处理"><a href="#Vue对于axios的并行请求处理" class="headerlink" title="Vue对于axios的并行请求处理"></a>Vue对于axios的并行请求处理</h2><p>使用该方法,  <u>优化性能与数据渲染效果</u>, <wavy>axios.all和axios.spread</wavy> ,  所有请求同时进行,  等请求全部发送后再对数据处理</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 官方示例</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getUserAccount</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> axios.<span class="title function_">get</span>(<span class="string">&#x27;/user/12345&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getUserPermissions</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> axios.<span class="title function_">get</span>(<span class="string">&#x27;/user/12345/permissions&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">axios.<span class="title function_">all</span>([<span class="title function_">getUserAccount</span>(), <span class="title function_">getUserPermissions</span>()])</span><br><span class="line"><span class="comment">// spread将各请求结果拆分返回</span></span><br><span class="line">    .<span class="title function_">then</span>(axios.<span class="title function_">spread</span>(<span class="keyword">function</span> (<span class="params">resp1, resp2</span>) &#123;</span><br><span class="line">    <span class="comment">// 两个请求现在都执行完成</span></span><br><span class="line">   <span class="comment">// 此时例如我需要对这两个请求进行处理</span></span><br><span class="line">    <span class="keyword">let</span> permissions = resp1.<span class="property">data</span>;<span class="comment">// 可以使用此方案接收</span></span><br><span class="line">    <span class="keyword">if</span>(permissions.<span class="property">code</span> == <span class="number">200</span>)&#123;&#125;<span class="comment">// 进行数据处理</span></span><br><span class="line">&#125;));</span><br></pre></td></tr></table></figure><p>axios.all方法接受一个数组作为参数，数组中的每个元素都是一个请求，返回一个<a href="https://so.csdn.net/so/search?q=promise&spm=1001.2101.3001.7020">promise</a>对象，当数组中所有请求均已完成时，执行then方法。<br>在then方法中执行了 axios.spread 方法。该方法是接收一个函数作为参数，返回一个新的函数。接收的参数函数的参数是axios.all方法中每个<u>请求返回的响应</u></p><p>应用场景: </p><p><strong>并发请求</strong>: 当您需要同时发送多个请求，并在所有请求完成后处理它们的响应时，可以使用这些方法。例如，在一个页面上加载多个资源或从多个 API 端点获取数据时，您可以使用 axios.all 来同时发送这些请求，并使用 axios.spread 来处理每个请求的响应数据。</p><p><strong>依赖关系请求</strong>: 有时，您可能需要在一个请求的结果中使用另一个请求的结果。使用 axios.all，您可以并发发送这些请求，并在它们都完成后使用 axios.spread 来处理它们的响应。这可以帮助您更高效地处理具有依赖关系的请求。</p><p><strong>批量操作</strong>: 如果您需要执行一系列类似的操作，例如创建、更新或删除多个资源，您可以使用 axios.all 方法来同时发送这些请求，并使用 axios.spread 来处理每个请求的结果。这样可以减少请求的数量和网络延迟。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>LeetCode</title>
       <link href="/2023/10/21/LeetCode/"/>
       <url>/2023/10/21/LeetCode/</url>
