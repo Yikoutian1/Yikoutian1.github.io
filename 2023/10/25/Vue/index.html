@@ -5,7 +5,7 @@
   diytitle: {"enable":true,"leaveTitle":"再看看嘛！","backTitle":"欢迎回来！"},
   LA51: undefined,
   greetingBox: undefined,
-  twikooEnvId: 'comment.calyee.top',
+  twikooEnvId: 'https://comment.calyee.top/',
   commentBarrageConfig:undefined,
   root: '/',
   preloader: {"source":3},
@@ -405,7 +405,7 @@ queueMicrotask(() => {
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'comment.calyee.top',
+      envId: 'https://comment.calyee.top/',
       region: '',
       onCommentLoaded: () => {
         anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -422,7 +422,7 @@ queueMicrotask(() => {
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'comment.calyee.top',
+      envId: 'https://comment.calyee.top/',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -491,7 +491,7 @@ queueMicrotask(() => {
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'comment.calyee.top',
+        envId: 'https://comment.calyee.top/',
         region: '',
         pageSize: 6,
         includeReply: true
