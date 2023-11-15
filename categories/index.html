@@ -5,7 +5,7 @@
   diytitle: {"enable":true,"leaveTitle":"再看看嘛！","backTitle":"欢迎回来！"},
   LA51: undefined,
   greetingBox: undefined,
-  twikooEnvId: '',
+  twikooEnvId: 'comment.calyee.top',
   commentBarrageConfig:undefined,
   root: '/',
   preloader: {"source":3},
@@ -59,7 +59,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-11-14 13:53:43',
+  postUpdate: '2023-11-15 03:57:39',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -376,7 +376,7 @@ queueMicrotask(() => {
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: '',
+      envId: 'comment.calyee.top',
       region: '',
       onCommentLoaded: () => {
         anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -393,7 +393,7 @@ queueMicrotask(() => {
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: '',
+      envId: 'comment.calyee.top',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -462,7 +462,7 @@ queueMicrotask(() => {
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: '',
+        envId: 'comment.calyee.top',
         region: '',
         pageSize: 6,
         includeReply: true
