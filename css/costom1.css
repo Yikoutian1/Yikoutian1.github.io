@@ -1,0 +1,24 @@
+/* 侧边栏头像卡片 */
+#aside-content>.card-widget.card-info::before {
+    background: url('');
+    border: 0;
+    position: absolute;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite !important;
+}
+
+
+/* 侧边栏头像框背景色 */
+[data-theme=dark] #aside-content>.card-widget.card-info::before {
+    overflow: hidden;
+    background-size: contain;
+    position: relative;
+}
+
+#aside-content>.card-widget.card-info::before {
+    background: linear-gradient(-45deg, #e8d8b9, #eccec5, #a3e9eb, #bdbdf0, #eec1ea);
+}
+
+

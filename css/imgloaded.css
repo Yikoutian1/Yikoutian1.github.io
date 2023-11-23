@@ -1,0 +1,135 @@
+/* 默认背景 */
+[data-theme=light] #body-wrap {
+  background: linear-gradient(0deg, rgba(247, 149, 51, .1), rgba(243, 112, 85, .1) 15%, rgba(239, 78, 123, .1) 30%, rgba(161, 102, 171, .1) 44%, rgba(80, 115, 184, .1) 58%, rgba(16, 152, 173, .1) 72%, rgba(7, 179, 155, .1) 86%, rgba(109, 186, 130, .1)) !important;
+}
+
+
+/* 黑夜背景图片修改处 */
+[data-theme=light] #body-wrap {
+  /* background-image: url(https://calyee-image.pages.dev/file/83a26de1397a1bf535305.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* 黑夜背景 */
+[data-theme=dark] #body-wrap {
+  /* background-image: url(https://calyee-image.pages.dev/file/83a26de1397a1bf535305.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+
+/* 首页头图加载 */
+body[data-type=anzhiyu] #nav,
+body[data-type=anzhiyu] #scroll-down,
+body[data-type=anzhiyu] #site-info {
+  -webkit-animation: scale 2.2s cubic-bezier(.6, .1, .25, 1) .5s 1 backwards;
+  animation: scale 2.2s cubic-bezier(.6, .1, .25, 1) .5s 1 backwards
+}
+
+@media screen and (max-width: 768px) {
+  .pl-container {
+    position: relative !important
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  #page-header.full_page,
+  .pl-container {
+    height: 100vh
+  }
+
+  #page-header.full_page.expand-to-full,
+  .pl-container.expand-to-full {
+    height: 50vh !important
+  }
+
+  .pl-container {
+    will-change: opacity, transform, filter;
+    opacity: calc(1 - var(--process) * 1) !important;
+    transform: scale(calc(1 + var(--process) * .1));
+    filter: blur(calc(var(--process) * 10px));
+  }
+}
+
+.pl-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -2;
+  overflow: hidden;
+  will-change: transform;
+  /* 添加性能优化 */
+  animation: blur-to-clear 2.5s cubic-bezier(.6, .25, .25, 1) 0s 1 backwards, scale 2.2s cubic-bezier(.6, .1, .25, 1) .5s 1 backwards;
+}
+
+.pl-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .1;
+  transition: opacity 1s;
+  will-change: transform, opacity
+}
+
+.pl-video.pl-visible {
+  display: block
+}
+
+@keyframes blur-to-clear {
+  0% {
+    filter: blur(50px);
+    opacity: 1;
+  }
+
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1.5) translateZ(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1) translateZ(0);
+    opacity: 1;
+  }
+}
+
+.pl-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKUlEQVQImU3IMREAIAgAwJfNkQCEsH8cijjpMf6vnXlQaIiJFx+omEBfmqIEZLe2jzcAAAAASUVORK5CYII=);
+}
+
+.pl-visible {
+  opacity: 1;
+}
+
+.pl-blur {
+  /* 小图锯齿多，增加高斯模糊 */
+  filter: blur(50px);
+}
+
+/* 去除首页图片背景黑板 */
+[data-theme='dark'] #web_bg:before, [data-theme='dark'] #footer:before, [data-theme='dark'] #page-header:before{
+  background-color: transparent;
+}
