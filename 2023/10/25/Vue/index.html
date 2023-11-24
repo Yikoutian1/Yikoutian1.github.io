@@ -267,7 +267,7 @@ if (true) {
     .then(data => {
       if (true) {
         const from = '出自 ' + data.from
-        const sub = ["今日事&#44;今日毕","Never put off till tomorrow what you can do today"]
+        const sub = ["今日事,今日毕","Never put off till tomorrow what you can do today"]
         sub.unshift(data.hitokoto, from)
         window.typed = new Typed('#footer-type-tips', {
           strings: sub,

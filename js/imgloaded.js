@@ -79,11 +79,10 @@ if (!window.ProgressiveLoad) {
     }
     loader.progressiveLoad();
   };
-
   const config = {
-    smallSrc: 'https://calyee-image.pages.dev/file/83a26de1397a1bf535305.jpg', // 小图链接 尽可能配置小于100k的图片
+    smallSrc: "https://s2.loli.net/2023/11/24/Fm1V6vJoSDMHYtB.jpg", // 小图链接 尽可能配置小于100k的图片
     largeSrc: 'https://calyee-image.pages.dev/file/83a26de1397a1bf535305.jpg', // 大图链接 最终显示的图片
-    mobileSmallSrc: 'https://calyee-image.pages.dev/file/83a26de1397a1bf535305.jpg', // 手机端小图链接 尽可能配置小于100k的图片
+    mobileSmallSrc: "https://s2.loli.net/2023/11/24/Fm1V6vJoSDMHYtB.jpg", // 手机端小图链接 尽可能配置小于100k的图片
     mobileLargeSrc: 'https://calyee-image.pages.dev/file/83a26de1397a1bf535305.jpg', // 手机端大图链接 最终显示的图片
     enableRoutes: ['/'],
     };
@@ -114,5 +113,4 @@ if (!window.ProgressiveLoad) {
   document.addEventListener("pjax:complete", function() {
     onPJAXComplete(config);
   });
-
 }
