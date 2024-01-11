@@ -1,5 +1,5 @@
 #welcome-info {
-  overflow: hidden;
+  white-space: pre-wrap;
   border-radius: 14px;
   --kouseki-welcome-color: #49b1f5;
   --kouseki-ip-color: #49b1f5;

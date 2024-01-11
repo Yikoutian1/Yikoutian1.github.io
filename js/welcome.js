@@ -1,3 +1,4 @@
+//get请求
 fetch("https://api.qjqq.cn/api/Local")
   .then((response) => response.json())
   .then((data) => {
@@ -24,8 +25,8 @@ function getDistance(e1, n1, e2, n2) {
 
 function showWelcome() {
   let dist = getDistance(
-    121.413921,
-    31.08929,
+    113.018832,
+    25.773239,
     ipLocation.data.lng,
     ipLocation.data.lat
   ); //修改自己的经度（121.413921）纬度（31.089290）
@@ -229,27 +230,22 @@ function showWelcome() {
   let timeChange;
   let date = new Date();
   if (date.getHours() >= 5 && date.getHours() < 11)
-    timeChange = "🌤️ 早上好，一日之计在于晨";
+    timeChange = "<span>🌤️ 早上好，一日之计在于晨</span>";
   else if (date.getHours() >= 11 && date.getHours() < 13)
-    timeChange = "☀️ 中午好，记得午休喔~";
+    timeChange = "<span>☀️ 中午好，记得午休喔~</span>";
   else if (date.getHours() >= 13 && date.getHours() < 17)
-    timeChange = "🕞 下午好，饮茶先啦！";
+    timeChange = "<span>🕞 下午好，饮茶先啦！</span>";
   else if (date.getHours() >= 17 && date.getHours() < 19)
-    timeChange = "🚶‍♂️ 即将下班，记得按时吃饭~";
+    timeChange = "<span>🚶‍♂️ 即将下班，记得按时吃饭~</span>";
   else if (date.getHours() >= 19 && date.getHours() < 24)
-    timeChange = "🌙 晚上好，夜生活嗨起来！";
+    timeChange = "<span>🌙 晚上好，夜生活嗨起来！</span>";
   else timeChange = "夜深了，早点休息，少熬夜";
 
   try {
     //自定义文本和需要放的位置
     document.getElementById(
       "welcome-info"
-    ).innerHTML = `欢迎来自 ${pos} 的小友💖
-${posdesc}🍂
-当前位置距博主约 ${dist} 公里！
-您的IP地址为：${ip}
-${timeChange} 
-`;
+    ).innerHTML = `欢迎来自 <b><span style="color: var(--kouseki-ip-color);font-size: var(--kouseki-gl-size)">${pos}</span></b> 的小友💖<br>${posdesc}🍂<br>当前位置距博主约 <b><span style="color: var(--kouseki-ip-color)">${dist}</span></b> 公里！<br>您的IP地址为：<b><span style="font-size: 12px;">${ip}</span></b><br>${timeChange} <br>`;
   } catch (err) {
     console.log("Pjax无法获取元素");
   }
