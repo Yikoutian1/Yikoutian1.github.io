@@ -10083,6 +10083,23 @@ h1.page-title + .tag-cloud-list {
   -ms-animation: gradient 15s ease infinite;
   animation: gradient 15s ease infinite;
 }
+#aside-content >.card-widget.card-revolve {
+  text-align: left;
+  font-size: 12px;
+  margin-top: 20px;
+  padding: 0px 0px;
+  border-radius: 12px;
+  width: 100%;
+  background: -webkit-linear-gradient(top, #d9a7c7, #fffcdc);
+  background: -moz-linear-gradient(top, #d9a7c7, #fffcdc);
+  background: -o-linear-gradient(top, #d9a7c7, #fffcdc);
+  background: -ms-linear-gradient(top, #d9a7c7, #fffcdc);
+  background: linear-gradient(to bottom, #d9a7c7, #fffcdc);
+}
+#aside-content >.card-widget.card-revolve a {
+  color: #f18ed4;
+  text-decoration: none;
+}
 #aside-content .card-info:hover .author-info-avatar {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
