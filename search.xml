@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Netty实现WebSocket原理</title>
+      <link href="/2024/01/30/Netty%E5%AE%9E%E7%8E%B0websocket/"/>
+      <url>/2024/01/30/Netty%E5%AE%9E%E7%8E%B0websocket/</url>
+      
+        <content type="html"><![CDATA[<div class="note pink anzhiyufont anzhiyu-icon-instagram simple"><p>博主笔记待更新</p></div><div class="checkbox plus green checked"><input type="checkbox" checked="checked">            <p>点击加号催促博主赶紧更</p>            </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> WebSocket </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Netty </tag>
+            
+            <tag> WebSocket </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>BigDecimal相关</title>
       <link href="/2024/01/21/BigDecimal/"/>
       <url>/2024/01/21/BigDecimal/</url>
