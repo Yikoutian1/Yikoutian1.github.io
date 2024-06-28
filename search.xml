@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Jenkins自动化部署</title>
+      <link href="/2024/06/28/Jenkins%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/"/>
+      <url>/2024/06/28/Jenkins%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>官网直达：<a href="https://www.jenkins.io/zh/">Jenkins</a></p><p>Jenkins说：<strong>构建伟大，无所不能</strong>。众所周知Jenkins是开源CI&amp;CD软件领导者， 提供超过1000个插件来支持构建、部署、自动化， 满足任何项目的需要。</p><p>那么它的作用不就是用于自动化部署的吗？我想是的。</p><h1 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h1><p>首先你得下载<a href="https://www.jenkins.io/zh/download/">Jenkins 的安装和设置</a></p><p>如果是Windows则直接下载war包其实就可以了，没必要下上面msi，如果你用docker也是可以的。</p><p>不过，你的git环境，maven之类的环境一定要配置好，如果嫌麻烦的话，笔者等空闲时间也是会去更新这个Java环境的一些基础配置的，从下载到可以使用的教程。</p><h1 id="从入门到会用"><a href="#从入门到会用" class="headerlink" title="从入门到会用"></a>从入门到会用</h1><h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><p>我们下载下来之后，然后<code>java -jar jenkins.war</code>，然后在浏览器打开，输入生成的初始化密钥，这个密钥其实最开始启动就会在屏幕上显示（windows:<code>c:\user\username\.jenkinssecrets/initialAdminPassword</code>，linux：<code>/root/.jenkins/secrets/initialAdminPassword</code>）</p><h2 id="下依赖插件①"><a href="#下依赖插件①" class="headerlink" title="下依赖插件①"></a>下依赖插件①</h2><p>如果不需要换源就可以成功下载，那么我们则不需要下面的步骤，可以直接跳过到 <a href="#%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8">开始使用</a></p><hr><p>如果没有成功则试试：</p><p>首先你得先修改配置文件 ×2</p><p>.jenkins&#x2F;updates&#x2F;default.json</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">https://www.google.com -&gt; https://www.baidu.com</span><br><span class="line">https://updates.jenkins.io/download -&gt; https://mirrors.tuna.tsinghua.edu.cn/jenkins</span><br></pre></td></tr></table></figure><p>hudson.model.UpdateCenter.xml</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=&#x27;1.1&#x27; encoding=&#x27;UTF-8&#x27;?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">sites</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">site</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">id</span>&gt;</span>default<span class="tag">&lt;/<span class="name">id</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">url</span>&gt;</span>https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json<span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">site</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">sites</span>&gt;</span></span><br></pre></td></tr></table></figure><p>然后重启。</p><p>如果还不行，那试试自己下插件导入吧</p><h2 id="捷径②"><a href="#捷径②" class="headerlink" title="捷径②"></a>捷径②</h2><p>链接：<a href="https://pan.baidu.com/s/1fAldQYwd4F2nMeWSStP5Aw">https://pan.baidu.com/s/1fAldQYwd4F2nMeWSStP5Aw</a><br>提取码：wy0z</p><blockquote><p>过期评论叫博主续期</p></blockquote><p>下载之后，将插件拖入到.jenkins的插件文件夹，然后运行就可以自动导入了（不是  这是保姆级别教学吗）。</p><h2 id="开始使用"><a href="#开始使用" class="headerlink" title="开始使用"></a>开始使用</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Jenkins </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Jenkins </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java性能优化JVM相关</title>
       <link href="/2024/05/04/JavaJVM/"/>
       <url>/2024/05/04/JavaJVM/</url>
@@ -721,7 +746,7 @@
       <link href="/2023/09/25/MyBatisPlus/"/>
       <url>/2023/09/25/MyBatisPlus/</url>
       
-        <content type="html"><![CDATA[<p>刮开看看：<psw>此篇文章用于测试博客的第三方是否生效</psw></p>]]></content>
+        <content type="html"><![CDATA[<p>刮开看看：<psw>此篇文章用于测试博客的第三方是否生效，以及用于文章的产出基础模板</psw></p>]]></content>
       
       
       <categories>
