@@ -2,6 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.calyee.top/2024/06/28/Jenkins%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/</loc>
+    
+    <lastmod>2024-07-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.calyee.top/2023/11/04/%E5%BC%80%E5%8F%91%E5%B0%8F%E6%89%8B%E5%86%8C/</loc>
+    
+    <lastmod>2024-07-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.calyee.top/2023/12/17/%E5%BE%AE%E4%BF%A1%E6%89%AB%E7%A0%81%E7%99%BB%E5%BD%95/</loc>
+    
+    <lastmod>2024-07-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.calyee.top/2023/12/19/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    
+    <lastmod>2024-07-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.calyee.top/2024/07/11/%E9%A1%B9%E7%9B%AE%E6%94%B6%E8%8E%B7/</loc>
+    
+    <lastmod>2024-07-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.calyee.top/about/index.html</loc>
+    
+    <lastmod>2024-07-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.calyee.top/categories/index.html</loc>
+    
+    <lastmod>2024-07-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.calyee.top/equipment/index.html</loc>
     
     <lastmod>2024-07-11</lastmod>
@@ -119,60 +182,6 @@
   </url>
   
   <url>
-    <loc>https://blog.calyee.top/2023/11/04/%E5%BC%80%E5%8F%91%E5%B0%8F%E6%89%8B%E5%86%8C/</loc>
-    
-    <lastmod>2024-07-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.calyee.top/2023/12/17/%E5%BE%AE%E4%BF%A1%E6%89%AB%E7%A0%81%E7%99%BB%E5%BD%95/</loc>
-    
-    <lastmod>2024-07-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.calyee.top/2023/12/19/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
-    
-    <lastmod>2024-07-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.calyee.top/2024/07/11/%E9%A1%B9%E7%9B%AE%E6%94%B6%E8%8E%B7/</loc>
-    
-    <lastmod>2024-07-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.calyee.top/about/index.html</loc>
-    
-    <lastmod>2024-07-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.calyee.top/categories/index.html</loc>
-    
-    <lastmod>2024-07-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.calyee.top/2024/01/19/SpringCloud%20LoadBalancer%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</loc>
     
     <lastmod>2024-07-11</lastmod>
@@ -257,15 +266,6 @@
     <loc>https://blog.calyee.top/2023/10/16/Docker/</loc>
     
     <lastmod>2024-07-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.calyee.top/2024/06/28/Jenkins%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/</loc>
-    
-    <lastmod>2024-06-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
