@@ -156,8 +156,17 @@ function showWelcome() {
           }
           break;
         case "湖南省":
-          posdesc = "74751，长沙斯塔克";
-          break;
+          switch (ipLocation.data.city) {
+            case "郴州市":
+              posdesc = "想吃郴州鱼粉，想去5A东江湖~（博主家乡,欢迎来玩）";
+              break;
+            case "衡阳市":
+              posdesc = "来五岳恒山，去小寨玩玩吧！";
+              break;
+            default:
+              posdesc = "74751，长沙斯塔克";
+              break;
+          }
         case "广东省":
           switch (ipLocation.data.city) {
             case "广州市":
@@ -167,7 +176,7 @@ function showWelcome() {
               posdesc = "今天你逛商场了嘛~";
               break;
             case "阳江市":
-              posdesc = "阳春合水！博主家乡~ 欢迎来玩~";
+              posdesc = "阳春合水！";
               break;
             default:
               posdesc = "来两斤福建人~";
@@ -261,4 +270,5 @@ window.onload = function () {
 
   // 添加pjax:complete事件监听
   document.addEventListener("pjax:complete", handlePjaxComplete);
-};
+}
+
