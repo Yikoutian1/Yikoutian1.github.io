@@ -21560,7 +21560,7 @@ a.catalog-more:hover {
 }
 
 #category-bar {
-  margin-top: 1rem; /*添加此项 为了调整首页分类导航与github贡献图之间的间距*/ 
+  /*margin-top: 1rem; 添加此项 为了调整首页分类导航与github贡献图之间的间距 （旧方案：现已注释，现已在配置文件加入此项的迭代版本）*/ 
   padding: 0.5rem 10px;
   background: var(--anzhiyu-card-bg);
   display: flex;
@@ -21598,6 +21598,11 @@ a.catalog-more:hover {
 #category #category-bar {
   padding: 0;
   border: none;
+}
+
+#catalog-list {
+  overflow: hidden; /* 隐藏滚动条并防止内容溢出 */
+  scrollbar-width: none;
 }
 
 #category a.catalog-list-item.select a {
