@@ -21,4 +21,102 @@
     background: linear-gradient(-45deg, #e8d8b9, #eccec5, #a3e9eb, #bdbdf0, #eec1ea);
 }
 
+/* 关于页：地图与个人信息卡片等高，缩放时保持一致 */
+#about-page .author-content-item-group.column.mapAndInfo {
+  align-items: stretch;
+}
+#about-page .author-content-item.map,
+#about-page .author-content-item.selfInfo {
+  height: auto;
+  max-height: none;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  #about-page .author-content-item-group.column.mapAndInfo {
+    flex-direction: column;
+  }
+}
+
+/* 关于页：地图卡片悬停时标题保持可见 */
+#about-page .author-content-item.map:hover .map-title {
+  bottom: 0;
+}
+
+/* 关于页：生涯卡片改为纯 CSS 极光背景（浅色调，原图片仅用样式隐藏，数据保留） */
+#about-page .author-content-item.careers {
+  --careers-bg: #fbf9ff;
+  --careers-glow-a: rgba(255, 150, 205, .48);
+  --careers-glow-b: rgba(140, 175, 255, .44);
+  --careers-glow-c: rgba(120, 225, 210, .40);
+  --careers-base-a: #fff6fb;
+  --careers-base-b: #eef3ff;
+  --careers-grid: rgba(70, 70, 110, .055);
+  --careers-text: rgba(48, 48, 78, .92);
+  background: var(--careers-bg);
+  color: var(--careers-text);
+  isolation: isolate;
+}
+#about-page .author-content-item.careers img.author-content-img {
+  display: none;
+}
+#about-page .author-content-item.careers::before {
+  content: "";
+  position: absolute;
+  inset: -30%;
+  z-index: 0;
+  background:
+    radial-gradient(circle at 18% 28%, var(--careers-glow-a), transparent 42%),
+    radial-gradient(circle at 82% 18%, var(--careers-glow-b), transparent 44%),
+    radial-gradient(circle at 58% 86%, var(--careers-glow-c), transparent 46%),
+    linear-gradient(135deg, var(--careers-base-a), var(--careers-base-b));
+  background-size: 180% 180%;
+  animation: careersAurora 20s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+#about-page .author-content-item.careers::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image:
+    linear-gradient(var(--careers-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--careers-grid) 1px, transparent 1px);
+  background-size: 30px 30px;
+  -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, .85), transparent 85%);
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, .85), transparent 85%);
+  pointer-events: none;
+}
+@keyframes careersAurora {
+  0%   { transform: translate3d(-3%, -2%, 0) scale(1);    background-position: 0% 50%; }
+  50%  { transform: translate3d(3%, 2%, 0) scale(1.06);   background-position: 100% 50%; }
+  100% { transform: translate3d(-1%, 3%, 0) scale(1.02);  background-position: 40% 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #about-page .author-content-item.careers::before {
+    animation: none;
+  }
+}
+#about-page .author-content-item.careers .card-content {
+  position: relative;
+  z-index: 1;
+}
+#about-page .author-content-item.careers .author-content-item-tips,
+#about-page .author-content-item.careers .author-content-item-title,
+#about-page .author-content-item.careers .career-item .name {
+  color: var(--careers-text);
+}
+#about-page .author-content-item.careers .career-item .circle {
+  box-shadow: 0 0 0 1px rgba(40, 40, 70, .10);
+}
+[data-theme="dark"] #about-page .author-content-item.careers {
+  --careers-bg: #242741;
+  --careers-glow-a: rgba(255, 130, 195, .38);
+  --careers-glow-b: rgba(110, 150, 245, .34);
+  --careers-glow-c: rgba(90, 205, 195, .30);
+  --careers-base-a: #2c3054;
+  --careers-base-b: #1c1f38;
+  --careers-grid: rgba(255, 255, 255, .07);
+  --careers-text: rgba(255, 255, 255, .92);
+}
+
 
