@@ -119,4 +119,49 @@
   --careers-text: rgba(255, 255, 255, .92);
 }
 
+/* 关于页：性格卡片高度与底部提示排版（删掉「我的照片」后失去等高参照） */
+#about-page .author-content-item.personalities {
+  min-height: 240px;
+  height: auto;
+}
+#about-page .author-content-item.personalities .post-tips {
+  position: static;
+  left: auto;
+  bottom: auto;
+  margin-top: 0.75rem;
+}
+
+/* 关于页：地图卡片改用纯 CSS 背景（原 sunbangyan 图床已失效） */
+#about-page .author-content-item.map {
+  --map-grid: rgba(70, 70, 110, .055);
+  background:
+    radial-gradient(circle at 15% 25%, rgba(255, 150, 205, .38), transparent 45%),
+    radial-gradient(circle at 85% 20%, rgba(140, 175, 255, .34), transparent 45%),
+    radial-gradient(circle at 60% 90%, rgba(120, 225, 210, .30), transparent 48%),
+    linear-gradient(135deg, #fff6fb, #eef3ff);
+  background-size: 160% 160%;
+}
+#about-page .author-content-item.map:hover {
+  background-position: center;
+}
+#about-page .author-content-item.map::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--map-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--map-grid) 1px, transparent 1px);
+  background-size: 28px 28px;
+  pointer-events: none;
+}
+[data-theme="dark"] #about-page .author-content-item.map {
+  --map-grid: rgba(255, 255, 255, .07);
+  background:
+    radial-gradient(circle at 15% 25%, rgba(255, 130, 195, .30), transparent 45%),
+    radial-gradient(circle at 85% 20%, rgba(110, 150, 245, .28), transparent 45%),
+    radial-gradient(circle at 60% 90%, rgba(90, 205, 195, .24), transparent 48%),
+    linear-gradient(135deg, #2c3054, #1c1f38);
+  background-size: 160% 160%;
+}
+
 
