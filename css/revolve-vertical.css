@@ -1,0 +1,67 @@
+/* ============================================================
+   旋转小人卡片 · 文案样式（单行横排文案 + 竖排印章）
+   背景保持原粉色渐变；彩色小人 canvas 动画不动
+   文案 DOM 结构在 themes/anzhiyu/layout/includes/widget/card_anim.pug
+   ============================================================ */
+
+#aside-content .card-revolve .container {
+  height: auto !important;
+  display: flex !important;
+  justify-content: stretch !important;
+  align-items: center !important;
+  padding: 6px 4px 0;
+  width: 100%;
+}
+
+/* 单行横排文案 + 右侧竖排印章 */
+#aside-content .card-revolve .vbox {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto;
+  gap: 0 12px;
+  align-items: center;
+  width: 100%;
+}
+
+/* 上行小字：不定期更新 · 友链（横排） */
+#aside-content .card-revolve .vside {
+  grid-column: 1;
+  grid-row: 1;
+  writing-mode: horizontal-tb;
+  text-orientation: mixed;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #a8527a;
+  font-weight: 600;
+  white-space: nowrap;
+}
+#aside-content .card-revolve .vside a {
+  color: #c2185b;
+  border-bottom: 1px solid #f06292;
+  text-decoration: none;
+}
+
+/* 【欢迎互换友链】主标题 —— 按要求隐藏 */
+#aside-content .card-revolve .vtitle {
+  display: none !important;
+}
+
+/* 方形印章：欢迎 / 互换（保持竖排方块，位于右侧） */
+#aside-content .card-revolve .seal {
+  grid-column: 2;
+  grid-row: 1;
+  width: 36px;
+  height: 36px;
+  border: 2px solid #c2185b;
+  border-radius: 6px;
+  color: #c2185b;
+  font-size: 11px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(8deg);
+  line-height: 1.05;
+  text-align: center;
+  margin: 0;
+}
